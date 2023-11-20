@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel reservation form</title>
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta name = "description" content = "travel reservation form"/>
+    <meta name = "keywords" content = "travel,reservation,form"/>
+    <meta name = "author" content = "Renato Silva"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "background">
+    <main class = "main">
+        <div class = "center">
+            <div class = "titles">
+                <h2>Travel reservation form</h2>
+                <h3>* denotes mandotory</h3>
+            </div><!--titles-->
+
+            <form class = "travel-form">
+                <div class = "input">
+                    <h2>Full name*:</h2>
+                    <input type = "name" placeholder="FirstName LastName"/>
+                </div><!--input-->
+
+                <div class = "input">
+                    <h2>Email address*:</h2>
+                    <input type = "email" placeholder="EMAIL_ADDRESS"/>
+                </div><!--input-->
+
+                <div class = "input">
+                    <h2>Select Tour Package*:</h2>
+                    <select>
+                        <option>All-Inclusive Holidays</option>
+                        <option>Cruises</option>
+                        <option>New Year's Eve</option>
+                        <option>Paradisiacal Beaches</option>
+                    </select>
+                </div><!--input-->
+
+                <div class = "input">
+                    <h2>Arrival date*:</h2>
+                    <input type = "date" placeholder="m/d/y"/>
+                </div><!--input-->
+
+                <div class = "input">
+                    <h2>Number of persons*:</h2>
+                    <input type = "number" min = "1" placeholder="UNKNOWN_TYPE"/>
+                </div><!--input-->
+
+                <div class = "input">
+                    <h2>What would you want to avail?*</h2>
+                    <span>Boarding</span>
+                    <input type = "checkbox"/><br/>
+                    <span>Fooding</span>
+                    <input type = "checkbox"/><br/>
+                    <span>Sight seeing</span>
+                    <input type = "checkbox"/>
+                </div><!--input-->
+
+                <div class = "input">
+                    <h2>Discout Coupon code:</h2>
+                    <input type = "name" placeholder="UNKNOWN_TYPE"/>
+                </div><!--input-->
+
+                <div class = "input">
+                    <h2>Terms and conditions</h2>
+                    <input type = "radio" name = "terms" value = "agree"/>
+                    <span>I agree</span>
+                    <input type = "radio" name = "terms" value = "disagree"/>
+                    <span>I disagree</span>
+                </div><!--input-->
+
+                <div class = "input">
+                    <input type = "submit" value = "Complete reservation"/>
+                </div><!--input-->
+            </form><!--travel-form-->
+        </div><!--center-->
+    </main><!--main-->
+    </div><!--background-->
+</body>
+</html>

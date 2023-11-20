@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body {
+    height: 100%;
+}
+
+
+.background {
+    background-image: url("https://s1.bwallpapers.com/wallpapers/2014/05/29/travel-desktop-wallpaper_121802656.jpg");
+    background-color: rgba(255, 255, 255, 0.023);
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 86px;
+    overflow: hidden;
+    
+}
+
+.main {
+    padding-top: 140px;
+    padding-bottom: 60px;
+}
+
+.center {
+    max-width: 580px;
+    padding: 0 2%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.537);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px black;
+    text-align: center;
+}
+
+.center:hover {
+    background-color: rgba(255, 255, 255, 0.59);
+}
+
+.titles h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.titles h3 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.travel-form  .input {
+    margin-top: 10px;
+}
+
+.input h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.input input {
+    padding: 1px 0;
+}
+
+.input input:focus{
+    border: 2px solid #838383;
+    outline: none;
+    border-radius: 3px;
+}
+
+.input span,
+.input input[type="checkbox"]{
+    margin-top: 5px;
+   
+}
+
+
+.input span:first-of-type,
+.input input[type="checkbox"]:first-of-type{
+    margin: 0;
+}
+
+.input input[type="radio"]:nth-of-type(2){
+    margin-left: 10px;
+}
+
+.input input[type="submit"]{
+    border: 0;
+    cursor: pointer;
+    padding: 3px 17px;
+    font-weight: bold;
+    border: 1px solid rgb(153, 153, 153);
+}
+
+.input input[type="submit"]:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+select {
+    background-color: rgb(245, 245, 245);
+}
+
+select option {
+    background-color: none;
+    outline: none;
+}
+
+select {
+    outline: none;
+}
+
+
+@media screen and (max-width: 800px){
+    .center {
+        text-align: center;
+        max-width: 400px;
+    }
+}
